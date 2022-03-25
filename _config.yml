@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "ko-KR"
 title                    : "hwoo3303"
 title_separator          : "|"
-subtitle                 : "boksil boksil Teemo"
+subtitle                 : "깃블로그 어려워요."
 name                     : "hwoo3303"
 description              : "점진적으로 가꿔나가는 공간입니다."
 url                      : "https://hwoo3303.github.io"
@@ -110,45 +110,20 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:hwoo3303@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://hwoo3303.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/hwoo3303"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
-
+      url: "https://github.com/hwoo3303"
 
 # Reading Files
 include:
@@ -216,9 +191,9 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 8 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -253,7 +228,7 @@ category_archive:
   path: /categories/
 tag_archive:
   type: liquid
-  path: /tags/https://github.com/jekyll/jekyll-archives
+  path: /tags/ #/tags/https://github.com/jekyll/jekyll-archives
 jekyll-archives:
   enabled:
     - categories
@@ -279,7 +254,7 @@ defaults:
   # _posts
   scope:
       path: ""
-      type: posts
+      type: posts #docs #posts
   values:
       layout: single
       author_profile: true
@@ -288,5 +263,7 @@ defaults:
       share: true
       related: true
       show_date: true
+      # sidebar:
+      #   nav: "docs"
 
 date_format: "%Y-%m-%d"
